@@ -11,11 +11,10 @@
     $score10 = 60;
     
     // 合計点を計算
-    $total = $score1 + $score2 + $score3 + $score4 + $score5 + $score6 + $score7 + $score8 + $score9 + $score10;
-    echo "合計点: " . $total . "<br>";
+    $total_score = $score1 + $score2 + $score3 + $score4 + $score5 + $score6 + $score7 + $score8 + $score9 + $score10;
 
     // 平均点を計算
-    $average = $total / 10;
-    echo "平均点: " . $average . "<br>";
+    $score_average = $total_score / 10;
+    echo $score_average;
 
 ?>
